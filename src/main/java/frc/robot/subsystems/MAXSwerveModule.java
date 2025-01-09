@@ -11,7 +11,7 @@ import edu.wpi.first.math.kinematics.SwerveModuleState;
 import com.revrobotics.CANSparkMax; // Depricated. Use com.revrobotics.spark.SparkMax. Once replaced, use ctrl + f to locate all the "CANSparkMax" (ctrl + f this) errors. The issue is to remove "CAN" from the text. CAN has been depricated in favor of just "SparkMax"
 import com.revrobotics.CANSparkLowLevel.MotorType; // Depricated. Use com.revrobotics.spark.SparkLowLevel.MotorType
 import com.revrobotics.SparkAbsoluteEncoder.Type; // Depricated. Use com.revrobotics.spark.SparkAbsoluteEncoder.Type
-import com.revrobotics.SparkPIDController; // Depricated. Still locating the replacement
+import com.revrobotics.SparkPIDController; // Depricated. Still locating the replacement. Possible replacement is com.revrobotics.spark.config.ClosedLoopConfig.pid or pidf
 import com.revrobotics.AbsoluteEncoder;
 import com.revrobotics.RelativeEncoder;
 
